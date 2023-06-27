@@ -9,7 +9,8 @@ Nenhum
 ##### Respostas
 ##### Ok! 200
 caso essa resposta aconteça você vai receber a listagem de todos os games.
-Exemplo de Resposta:
+
+#### Exemplo de Resposta:
 ```
 [
     {
@@ -36,3 +37,9 @@ Exemplo de Resposta:
 ##### Falha na autenticação! 401
 Caso essa resposta aconteça, isso significa que aconteceu alguma falha durante o processo de autemticação da requisição. Motivos: Token inválido, Token expirado.
 
+#### Exemplo de Resposta:
+```
+{
+    "err": "Token inválido!"
+}
+```
