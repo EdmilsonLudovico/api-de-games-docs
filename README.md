@@ -57,7 +57,7 @@ Senha: Senha do usuário cadastrado no sistema.
 }
 ```
 
-##### Respostas
+##### Respostas 
 ##### Ok! 200
 caso essa resposta aconteça você receber o token JWT para acessar endpoints protegidos na API.
 #### Exemplo de Resposta:
